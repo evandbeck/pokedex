@@ -1,5 +1,6 @@
 import React from 'react';
-import PokeCard from './PokeCard'
+import PokeCard from './PokeCard';
+import PokedexCSS from './Pokedex.css';
 
 function Pokedex() {
     const availablePokemon = [
@@ -18,7 +19,9 @@ function Pokedex() {
   return (
     <div>
         <h1>Pokedex</h1>
-        {pokeCards}
+        <div className="Pokedex-cards">
+            {pokeCards}
+        </div>
     </div>
   )
 }
