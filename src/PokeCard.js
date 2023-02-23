@@ -18,4 +18,4 @@ function PokeCard({pokeCard}) {
   )
 }
 
-export default PokeCard
+export default PokeCard;
